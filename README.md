@@ -11,7 +11,6 @@ The release includes two interactive modes:
 ## Repositories
 | Component | Location |
 | --- | --- |
-| Inference code and demos | [GitHub](https://github.com/seanpatrickmoran/doom-nwm-p0) |
 | VAE, DiT, and steering weights | [`signaldetectionweary/doom-nwm-p0`](https://huggingface.co/signaldetectionweary/doom-nwm-p0) |
 | Bootstrap contexts (Parquet) | [`signaldetectionweary/doom-nwm-p0-bootstrap`](https://huggingface.co/datasets/signaldetectionweary/doom-nwm-p0-bootstrap) |
 
