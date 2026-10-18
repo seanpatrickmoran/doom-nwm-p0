@@ -9,10 +9,9 @@ The release includes two interactive modes:
 
 
 ## Repositories
-| Component | Location |
-| --- | --- |
-| VAE, DiT, and steering weights | [`signaldetectionweary/doom-nwm-p0`](https://huggingface.co/signaldetectionweary/doom-nwm-p0) |
-| Bootstrap contexts (Parquet) | [`signaldetectionweary/doom-nwm-p0-bootstrap`](https://huggingface.co/datasets/signaldetectionweary/doom-nwm-p0-bootstrap) |
+All the model safetensors can be found at [`signaldetectionweary/doom-nwm-p0`](https://huggingface.co/signaldetectionweary/doom-nwm-p0)
+
+The data needed to start the WM simulation is at [`signaldetectionweary/doom-nwm-p0-bootstrap`](https://huggingface.co/datasets/signaldetectionweary/doom-nwm-p0-bootstrap)
 
 ## Quickstart
 Use Python 3.10+ with a working PyTorch installation. The inference code additionally requires `numpy`, `opencv-python`, `safetensors`, `huggingface_hub`, and `pyarrow`.
