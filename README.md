@@ -11,7 +11,7 @@ The release includes two interactive modes:
 ## Repositories
 All the model safetensors can be found at [`signaldetectionweary/doom-nwm-p0`](https://huggingface.co/signaldetectionweary/doom-nwm-p0)
 
-The data needed to start the WM simulation is at [`signaldetectionweary/doom-nwm-p0-bootstrap`](https://huggingface.co/datasets/signaldetectionweary/doom-nwm-p0-bootstrap)
+The data needed to start the WM simulation is at [`signaldetectionweary/doom-nwm-p0-bootstraps`](https://huggingface.co/datasets/signaldetectionweary/doom-nwm-p0-bootstraps)
 
 ## Quickstart
 Use Python 3.10+ with a working PyTorch installation. The inference code additionally requires `numpy`, `opencv-python`, `safetensors`, `huggingface_hub`, and `pyarrow`.
@@ -36,7 +36,7 @@ snapshot_download(
     local_dir="release_assets/models",
 )
 hf_hub_download(
-    repo_id="signaldetectionweary/doom-nwm-p0-bootstrap",
+    repo_id="signaldetectionweary/doom-nwm-p0-bootstraps",
     repo_type="dataset",
     filename="bootstraps.parquet",
     local_dir="release_assets/bootstrapped_data",
